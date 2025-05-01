@@ -27,12 +27,12 @@ _For now the program runs in a commandprompt. It will become a tray icon in the 
 
 5. If everything went right the application will open the application in the default browser and you should see something like this:
 
-   ![Macrame Dashboard](../assets/img/Start-Dashboard.jpg)
+   ![Macrame Dashboard](../../assets/img/Start-Dashboard.jpg)
 
 &nbsp;
 
-Now you can start with [linking a remote device](/devices/linking) or [record a macro](/macro/recording)!
+Now you can start with [linking a remote device](/docs/devices/linking) or [record a macro](/docs/macros/recording)!
 
-Panel creation can not be done in the app read the [Panel creation page](/panels/creation) for more information.
+Panel creation can not be done in the app read the [Panel creation page](/docs/panels/creation) for more information.
 
 ---

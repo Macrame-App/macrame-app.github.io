@@ -4,7 +4,7 @@
 
 ---
 
-_To start editing a macro you first have to [record a macro](/macros/recording) or open a saved macro_
+_To start editing a macro you first have to [record a macro](/docs/macros/recording) or open a saved macro_
 
 &nbsp;
 
