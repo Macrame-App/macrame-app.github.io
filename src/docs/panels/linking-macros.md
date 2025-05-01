@@ -12,19 +12,19 @@
 
 2. Hover over the panel you want to link macros to and click **edit**.
 
-   ![Panel overview - edit](../../assets/img/LinkingMacros-PanelOverview.jpg)
+   ![Panel overview - edit](../assets/img/LinkingMacros-PanelOverview.jpg)
 
    &nbsp;
 
 3. Here you will see the panel edit view.
 
-   ![Panel edit view](../../assets/img/LinkingMacros-PanelEditStart.jpg)
+   ![Panel edit view](../assets/img/LinkingMacros-PanelEditStart.jpg)
 
    &nbsp;
 
 4. To link a macro to a button. Click the desired button, a menu will appear on the right side where you can select a macro to link to the button.
 
-   ![Link Macro](../../assets/img/LinkingMacros-LinkingMacro.jpg)
+   ![Link Macro](../assets/img/LinkingMacros-LinkingMacro.jpg)
 
    &nbsp;
 
