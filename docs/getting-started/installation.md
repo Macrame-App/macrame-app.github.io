@@ -31,8 +31,8 @@ _For now the program runs in a commandprompt. It will become a tray icon in the 
 
 &nbsp;
 
-Now you can start with [linking a remote device](/docs/devices/linking) or [record a macro](/docs/macros/recording)!
+Now you can start with [linking a remote device](../devices/linking) or [record a macro](../macros/recording)!
 
-Panel creation can not be done in the app read the [Panel creation page](/docs/panels/creation) for more information.
+Panel creation can not be done in the app read the [Panel creation page](../panels/creation) for more information.
 
 ---

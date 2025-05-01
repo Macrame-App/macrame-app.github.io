@@ -11,10 +11,10 @@ hero:
   actions:
     - theme: brand
       text: Get started
-      link: /docs/getting-started/installation
+      link: getting-started/installation
     - theme: alt
       text: What is Macrame?
-      link: /docs/getting-started/what-is
+      link: getting-started/what-is
   
 
 features:

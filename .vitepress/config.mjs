@@ -4,6 +4,7 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
   base: "/",
   srcExclude: ['**/README.md'],
+  srcDir: "docs",
   title: "Macrame - Documentation",
   description: "Documentation for the macro button panel app called Macrame.",
   themeConfig: {
