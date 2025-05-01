@@ -22,8 +22,8 @@ jobs:
       - name: Build and deploy
         run: |
           npm run docs:build
-          git config --global user.name "JaxxMoss"
-          git config --global user.email "j.d.malotaux@gmail.com"
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git rm -rf .
           cp -r .vitepress/dist/* .
           git add .
