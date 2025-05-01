@@ -73,7 +73,7 @@ I haven't tested Macrame on older computers, but I don't think it will struggle 
 
 The base of the application that interacts with your system is build with [Go](https://go.dev/). The webapplication is build with [Vue.js](https://vuejs.org/). 
 
-Panels can be created with standard HTML, CSS and JS. More information about the creation of panels on [this page](/panels/creation).
+Panels can be created with standard HTML, CSS and JS. More information about the creation of panels on [this page](/docs/panels/creation).
 
 &nbsp;
 
