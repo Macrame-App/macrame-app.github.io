@@ -11,7 +11,7 @@ defineProps({
   weight: String,
   size: String,
   color: String,
-  spaced: Boolean,
+  spaced: String,
   gap: String,
 })
 </script>
@@ -19,7 +19,7 @@ defineProps({
 .textcomp {
   display: flex;
   gap: 0.75rem;
-  
+
   &.spaced {
     margin-top: 1.5em;
   }
