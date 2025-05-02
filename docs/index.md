@@ -6,7 +6,7 @@ hero:
   name: "Macrame"
   tagline: Turn Any Device into a button panel. Open-source, easy, and built to supercharge your workflow or gaming.
   image:
-    src: /docs/assets/img/hero.png
+    src: ./hero.png
     alt: Macrame - HTML button panels
   actions:
     - theme: brand
@@ -35,20 +35,20 @@ features:
 Please note that as this is an early version, some instability or bugs may occur.
 :::
 
-## <Text align="center" color="var(--vp-c-brand-1)" spaced="true" size="lg">Record your shortcuts!</Text>
+## <Text align="center" color="var(--vp-c-yellow-2)" spaced="true" size="lg">Record your shortcuts!</Text>
 
-<Image src="/docs/assets/img/Home-MacroRecorder.png" alt="Macro Recorder" margin="-3rem 0 -8rem 0" />
+<Image src="/Home-MacroRecorder.png" bgSrc="/bg-gradient-1.png" alt="Macro Recorder" margin="4rem 0" />
 
 <Text align="center">
   <Button href="/macros/recording" variant="brand">How to record?</Button>
   <Button href="/macros/editing" variant="alt">How to edit?</Button>
 </Text>
 
-## <Text align="center" color="var(--vp-c-alt-1)" spaced="true" size="lg">Complete freedom to design your panel!</Text>
+## <Text align="center" color="var(--vp-c-sky-2)" spaced="true" size="lg">Complete freedom to design your panel!</Text>
 
 <Text align="center">Panels can be created by simple HTML and CSS, making the possibilities almost endless!</Text>
 
-<Image src="/docs/assets/img/Home-EliteDangerousPanel.png" alt="Elite Dangerous Button Panel" margin="-3rem 0 -10rem 0" />
+<Image src="/Home-EliteDangerousPanel.png" bgSrc="/bg-gradient-2.png" alt="Elite Dangerous Button Panel" margin="4rem 0" />
 
 *<Text align="center" gap="0.3em">This panel was created for the game **Elite Dangerous.**</Text>*
 

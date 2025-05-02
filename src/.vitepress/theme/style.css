@@ -150,7 +150,7 @@
 }
 
 .dark {
-  --vp-c-gray-1: #666;
+  --vp-c-gray-1: #aaa;
   --vp-c-gray-2: #444;
   --vp-c-gray-3: #222;
   --vp-c-gray-soft: rgba(170, 170, 170, 0.50);
@@ -238,3 +238,21 @@
   --docsearch-primary-color: var(--vp-c-brand-1) !important;
 }
 
+.dark .VPMenu {
+  background-color: var(--vp-c-gray-3) !important;
+  
+  .item .label {
+    color: var(--vp-c-gray-1) !important;
+  }
+}
+
+.vp-doc.container {
+  overflow-x:hidden;
+}
+
+.vp-doc {
+  h1, h2, h3, h4, h5, h6, p, span, div:not(.imgcontainer) {
+    position: relative;
+    z-index: 2;
+  }
+}

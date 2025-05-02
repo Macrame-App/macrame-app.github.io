@@ -6,10 +6,11 @@ export default defineConfig({
   srcExclude: ['**/README.md'],
   srcDir: "docs",
   title: "Macrame - Documentation",
+  head: [['link', { rel: 'icon', href: '/favicon.png' }]],
   description: "Documentation for the macro button panel app called Macrame.",
   themeConfig: {
     siteTitle: "Macrame",
-    logo: "assets/img/Macrame-Logo-gradient.svg",
+    logo: "/Macrame-Logo-gradient.svg",
     footer: {
       message: "Licensed under the GNU GPLv3 <a href='license'>license</a>",
       copyright: "Copyright © 2025-present <a href='https://github.com/JaxxMoss'>Jesse Malotaux</a>",
@@ -26,6 +27,8 @@ export default defineConfig({
         items: [
           { text: "Installation", link: "getting-started/installation" },
           { text: "What is Macrame?", link: "getting-started/what-is" },
+          { text: "FAQ", link: "getting-started/faq" },
+          { text: "Support", link: "getting-started/support" },
         ],
       },
       {
@@ -57,7 +60,7 @@ export default defineConfig({
       },
     ],
     socialLinks: [
-      { icon: "github", link: "https://github.com/vuejs/vitepress" },
+      { icon: "github", link: "https://github.com/macrame-app/macrame" },
     ],
   }
 });
