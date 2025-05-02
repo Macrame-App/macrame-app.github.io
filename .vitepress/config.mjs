@@ -6,6 +6,7 @@ export default defineConfig({
   srcExclude: ['**/README.md'],
   srcDir: "docs",
   title: "Macrame - Documentation",
+  head: [['link', { rel: 'icon', href: '/favicon.png' }]],
   description: "Documentation for the macro button panel app called Macrame.",
   themeConfig: {
     siteTitle: "Macrame",
