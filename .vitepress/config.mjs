@@ -9,7 +9,7 @@ export default defineConfig({
   description: "Documentation for the macro button panel app called Macrame.",
   themeConfig: {
     siteTitle: "Macrame",
-    logo: "assets/img/Macrame-Logo-gradient.svg",
+    logo: "/Macrame-Logo-gradient.svg",
     footer: {
       message: "Licensed under the GNU GPLv3 <a href='license'>license</a>",
       copyright: "Copyright © 2025-present <a href='https://github.com/JaxxMoss'>Jesse Malotaux</a>",

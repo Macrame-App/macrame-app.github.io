@@ -9,7 +9,7 @@
 1. Open the **devices page** on the server. 
 
     ::: details *Example:* Server view
-      ![Server Device View](../assets/img/Devices-ServerView.jpg)
+      ![Server Device View](/Devices-ServerView.jpg)
     :::
 
    &nbsp;
@@ -32,7 +32,7 @@
 3. The device will automatically start an access request. 
 
     ::: details *Example:* Remote view
-      ![Remote Server View](../assets/img/Devices-RemoteView.jpg)
+      ![Remote Server View](/Devices-RemoteView.jpg)
     :::
 
     If there are no devices linked the server will update once it has received the first access request. 
@@ -41,7 +41,7 @@
 
     
     ::: details *Example:* New device requested access
-      ![Server New Device View](../assets/img/Devices-ServerView2.jpg)
+      ![Server New Device View](/Devices-ServerView2.jpg)
     :::
 
     &nbsp;
@@ -49,11 +49,11 @@
 4. Press **Link device**. It will show you a one-time-pin in a dialog. Enter the pin on the remote device in the dialog that popped up.
 
     ::: details *Example:* Pin dialog
-      ![Server Pin Dialog](../assets/img/Devices-ServerLinkPin.jpg)
+      ![Server Pin Dialog](/Devices-ServerLinkPin.jpg)
     :::
 
     ::: details *Example:* Pin input dialog
-      ![Server Pin Dialog](../assets/img/Devices-RemoteServerPin.jpg)
+      ![Server Pin Dialog](/Devices-RemoteServerPin.jpg)
     :::
 
     &nbsp;
@@ -61,11 +61,11 @@
 5. If the pin is entered correctly the device will be authorized and linking will be succesfull! 
 
     ::: details *Example:* Device linked
-      ![Server Pin Dialog](../assets/img/Devices-DeviceLinked.jpg)
+      ![Server Pin Dialog](/Devices-DeviceLinked.jpg)
     :::
 
     ::: details *Example:* Authorized by server
-      ![Server Pin Dialog](../assets/img/Devices-ServerRemoteAuthorized.jpg)
+      ![Server Pin Dialog](/Devices-ServerRemoteAuthorized.jpg)
     :::
 
     &nbsp;
