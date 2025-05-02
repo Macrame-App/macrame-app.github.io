@@ -18,49 +18,49 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "Home", link: "/" },
-      { text: "Installation", link: "getting-started/installation" },
+      { text: "Installation", link: "/getting-started/installation" },
     ],
 
     sidebar: [
       {
         text: "Getting Started",
         items: [
-          { text: "Installation", link: "getting-started/installation" },
-          { text: "What is Macrame?", link: "getting-started/what-is" },
-          { text: "FAQ", link: "getting-started/faq" },
-          { text: "Support", link: "getting-started/support" },
+          { text: "Installation", link: "/getting-started/installation" },
+          { text: "What is Macrame?", link: "/getting-started/what-is" },
+          { text: "FAQ", link: "/getting-started/faq" },
+          { text: "Support", link: "/getting-started/support" },
         ],
       },
       {
         text: "Devices",
-        items: [{ text: "Linking devices", link: "devices/linking" }],
+        items: [{ text: "Linking devices", link: "/devices/linking" }],
       },
       {
         text: "Panels",
         items: [
-          { text: "Usage", link: "panels/usage" },
-          { text: "Linking macros", link: "panels/linking-macros" },
-          { text: "Creation", link: "panels/creation" },
+          { text: "Usage", link: "/panels/usage" },
+          { text: "Linking macros", link: "/panels/linking-macros" },
+          { text: "Creation", link: "/panels/creation" },
         ],
       },
       {
         text: "Macros",
         items: [
-          { text: "Usage", link: "macros/usage" },
-          { text: "Recording", link: "macros/recording" },
-          { text: "Editing", link: "macros/editing" },
+          { text: "Usage", link: "/macros/usage" },
+          { text: "Recording", link: "/macros/recording" },
+          { text: "Editing", link: "/macros/editing" },
         ],
       },
       {
         text: "About",
         items: [
-          { text: "Creator", link: "about/creator" },
-          { text: "License", link: "/license" },
+          { text: "Creator", link: "/about/creator" },
+          { text: "License", link: "//license" },
         ],
       },
     ],
     socialLinks: [
-      { icon: "github", link: "https://github.com/macrame-app/macrame" },
+      { icon: "github", link: "/https://github.com/macrame-app/macrame" },
     ],
   }
 });
