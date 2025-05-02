@@ -247,7 +247,7 @@
 }
 
 .vp-doc.container {
-  overflow-x:hidden;
+  overflow: hidden;
 }
 
 .vp-doc {
