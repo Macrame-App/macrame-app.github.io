@@ -26,6 +26,7 @@ export default defineConfig({
         items: [
           { text: "Installation", link: "getting-started/installation" },
           { text: "What is Macrame?", link: "getting-started/what-is" },
+          { text: "FAQ", link: "getting-started/faq" },
         ],
       },
       {
