@@ -1,5 +1,5 @@
 <template>
-<div class="imgcontainer" :style="`width: ${width}; height: ${height}; margin: ${margin};`">
+<div :class="`imgcontainer ${round ? 'img__rounded' : ''}`" :style="`width: ${width}; height: ${height}; margin: ${margin};`">
   <img v-if="bgSrc" :src="bgSrc" class="imgcontainer__bg" role="presentation" />
   <img :src="src" :alt="alt" />
 </div>
@@ -15,7 +15,8 @@ const props = defineProps({
   width: String,
   height: String,
   margin: String,
-  overflow: Boolean
+  overflow: Boolean,
+  round: Boolean
 })
 
 onMounted(() => {
@@ -30,8 +31,19 @@ onMounted(() => {
   justify-content: center;
   align-items: center;
   overflow: visible;
-  /* isolation: isolate; */
   z-index: 0;
+
+  &.img__rounded {
+    aspect-ratio: 1/1;
+    border-radius: 9999rem;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
 
   .imgcontainer__bg {
     position: absolute;
