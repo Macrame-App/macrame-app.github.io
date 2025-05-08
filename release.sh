@@ -2,6 +2,7 @@ npm install
 
 npm run docs:build
 
+rm -rf src
 mkdir src
 
 mv -n * src/
