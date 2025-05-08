@@ -13,21 +13,35 @@ Run this application at your own risk. It shouldn't break anything, but at this 
 :::
 &nbsp;
 
-1. **Download** the latest build from the [Macrame Github Page](https://github.com/jaxxmoss/macrame).
+1.  **Download** the latest build from the [Macrame Github Page](https://github.com/jaxxmoss/macrame).
 
-2. Unzip the contents in whatever place you prefer.
+2.  Unzip the contents in whatever place you prefer.
 
-3. Run the **install.bat** as an **administrator**.
+3.  Run the **Macrame.exe** file and allow the application in the firewall.
 
-_This will add Macrame.exe as an exception in the firewall. And run the Setup.exe, which will generate a config.js inside the public folder_
+    :::details Technical details
 
-4. Macrame will start automatically.
+    This will start an HTTP listener that will listen to a randomly generated port which can be found in public/config.js.
+    It will serve the Macrame webapplication.
 
-_For now the program runs in a commandprompt. It will become a tray icon in the future._
+    **Some virus scanners will lable this as hazardous, because it's opening a port on your pc.**
 
-5. If everything went right the application will open the application in the default browser and you should see something like this:
+    _Macrame will only allow devices on the same network to connect to it._
 
-   ![Macrame Dashboard](/Start-Dashboard.jpg)
+    The reason this is somewhat unsafe is because the connection is not secured (HTTPS).
+    It shouldn't pose huge security threats on secured networks and there's encryption present to at least offer some security.
+
+    **But it hasn't been properly tested, so I suggest to run this program on a secured network to reduce any risk.**
+
+    :::
+
+4.  If everything went right Macrame will open the server interface in the default browser and you should see something like this:
+
+    ![Macrame Dashboard](/Start-Dashboard.jpg)
+
+    There will also be a traymenu and icon present.
+
+    ![Macrame Tray Menu](/Start-TrayMenu.jpg)
 
 &nbsp;
 

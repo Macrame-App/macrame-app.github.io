@@ -3,17 +3,18 @@ import { defineConfig } from "vitepress";
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   base: "/",
-  srcExclude: ['**/README.md'],
+  srcExclude: ["**/README.md"],
   srcDir: "docs",
   title: "Macrame - Documentation",
-  head: [['link', { rel: 'icon', href: '/favicon.png' }]],
+  head: [["link", { rel: "icon", href: "/favicon.png" }]],
   description: "Documentation for the macro button panel app called Macrame.",
   themeConfig: {
     siteTitle: "Macrame",
     logo: "/Macrame-Logo-gradient.svg",
     footer: {
       message: "Licensed under the GNU GPLv3 <a href='license'>license</a>",
-      copyright: "Copyright © 2025-present <a href='https://github.com/JaxxMoss'>Jesse Malotaux</a>",
+      copyright:
+        "Copyright © 2025-present <a href='https://github.com/JaxxMoss'>Jesse Malotaux</a>",
     },
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -26,6 +27,10 @@ export default defineConfig({
         text: "Getting Started",
         items: [
           { text: "Installation", link: "/getting-started/installation" },
+          {
+            text: "Build it yourself",
+            link: "/getting-started/build-it-yourself",
+          },
           { text: "What is Macrame?", link: "/getting-started/what-is" },
           { text: "FAQ", link: "/getting-started/faq" },
           { text: "Support", link: "/getting-started/support" },
@@ -55,12 +60,12 @@ export default defineConfig({
         text: "About",
         items: [
           { text: "Creator", link: "/about/creator" },
-          { text: "License", link: "//license" },
+          { text: "License", link: "/license" },
         ],
       },
     ],
     socialLinks: [
-      { icon: "github", link: "/https://github.com/macrame-app/macrame" },
+      { icon: "github", link: "https://github.com/macrame-app/macrame" },
     ],
-  }
+  },
 });
