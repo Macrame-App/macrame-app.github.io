@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "Macrame"
-  tagline: Turn Any Device into a button panel. Open-source, easy, and built to supercharge your workflow or gaming.
+  tagline: Turn Any Device into a button panel. Open-source, easy, and built to supercharge your workflow or gaming! <span style="display:inline-block;width:100%"><a style="float:left;font-size:1rem;color:var(--vp-c-brand-2)" href="/getting-started/what-is">Read more</a></span>
   image:
     src: ./hero.png
     alt: Macrame - HTML button panels
@@ -13,9 +13,8 @@ hero:
       text: Get started
       link: getting-started/installation
     - theme: alt
-      text: What is Macrame?
-      link: getting-started/what-is
-  
+      text: Download V1.0.0.zip
+      link: https://github.com/Macrame-App/Macrame/archive/refs/heads/release/1.0.0.zip
 
 features:
   - title: Any device
@@ -24,7 +23,6 @@ features:
     details: Create as many panels or macros as you want. The only limit is your PC’s storage.
   - title: Enrich your simulators
     details: Customize button panels to match your simulator setup. Put every key action right at your fingertips.
-
 ---
 
 &nbsp;
@@ -50,7 +48,7 @@ Please note that as this is an early version, some instability or bugs may occur
 
 <Image src="/Home-EliteDangerousPanel.png" bgSrc="/bg-gradient-2.png" alt="Elite Dangerous Button Panel" margin="4rem 0" />
 
-*<Text align="center" gap="0.3em">This panel was created for the game **Elite Dangerous.**</Text>*
+_<Text align="center" gap="0.3em">This panel was created for the game **Elite Dangerous.**</Text>_
 
 <Text align="center">
   <Button href="/panels/linking-macros" variant="alt">How to link macros?</Button>

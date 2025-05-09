@@ -13,7 +13,9 @@ Run this application at your own risk. It shouldn't break anything, but at this 
 :::
 &nbsp;
 
-1.  **Download** the latest build from the [Macrame Github Page](https://github.com/jaxxmoss/macrame).
+1.  **Download** the latest (currently v1.0.0) zip: [Macrame-release-1.0.0.zip](https://github.com/Macrame-App/Macrame/archive/refs/heads/release/1.0.0.zip).
+
+    Or download the latest build from the [Macrame Github Page](https://github.com/macrame-app/macrame).
 
 2.  Unzip the contents in whatever place you prefer.
 
